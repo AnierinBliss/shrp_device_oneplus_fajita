@@ -141,3 +141,18 @@ TARGET_USES_LOGD := true
 TW_EXCLUDE_TWRPAPP := true
 TW_NO_USB_STORAGE := true
 PLATFORM_VERSION := 16.1.0
+
+# SHRP flags
+SHRP_PATH := device/oneplus/fajita
+SHRP_MAINTAINER := AnierinB
+SHRP_DEVICE_CODE := fajita
+SHRP_EDL_MODE := 1
+SHRP_INTERNAL := /sdcard
+SHRP_OTG := /usb_otg
+SHRP_FLASH := 0
+SHRP_DARK := true
+SHRP_EXPRESS := true
+SHRP_REC_TYPE := Treble
+SHRP_DEVICE_TYPE := A/B
+SHRP_AB := true
+SHRP_EXCLUDE_AUTO_DECRYPT := true
